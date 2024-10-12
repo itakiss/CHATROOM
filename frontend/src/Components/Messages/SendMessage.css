@@ -1,0 +1,40 @@
+.send-message {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #f1f1f1; /* Light background for better contrast */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.send-message_input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border for input */
+    border-radius: 5px;
+    font: 0.9rem "IRANSans";
+    margin-right: 10px; /* Spacing between input and button */
+}
+
+.send-message_input::placeholder {
+    color: darkslategray;
+}
+
+.send-message_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white; /* Contrast against the button background */
+    background-color: #007bff; /* Button background */
+    border: none;
+    border-radius: 5px; /* Rounded corners for button */
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.send-message_icon:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

@@ -1,0 +1,52 @@
+.messages-list_item {
+    list-style: none;
+    margin: 10px 0; /* Spacing between messages */
+    text-align: left; /* Align user messages to the right */
+}
+
+.messages-list_item-content {
+    max-width: 60%;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+    padding: 15px 20px;
+    background-color: #e9ecef; /* Light grey background for incoming messages */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.messages-list_from {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.messages-list_text {
+    font-size: 1rem; /* Larger text for better readability */
+}
+
+.messages-list_datetime {
+    font-size: 0.75rem;
+    text-align: right;
+    color: #888; /* Lighter color for timestamps */
+}
+
+
+
+.messages-list_item--user-message {
+    text-align: right; /* Align user messages to the right */
+}
+
+.messages-list_item-content {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f1f1f1; /* Color for incoming messages */
+}
+
+.messages-list_item--user-message .messages-list_item-content {
+    background-color: #007bff; /* Color for outgoing messages */
+    color: white; /* Text color for outgoing messages */
+}
