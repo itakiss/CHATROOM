@@ -16,16 +16,26 @@ This is a real-time chat application built using **React** for the frontend and 
 - **Date formatting**: Day.js
 - **Icons**: Font Awesome
 
+**Lobby screen:**
+
+![image](https://github.com/user-attachments/assets/44966fc9-f25f-4943-b6ed-644da96b1abb)
+
+**Chat screen:**
+
+![image](https://github.com/user-attachments/assets/25a4b61d-0679-4e54-8e75-a3f3efb84e66)
+
+
+
 ## Installation
 To run this application locally, follow these steps:
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/chat-app.git
+   git clone https://github.com/ittakss/RealTimeChatApp.git
 
 2. Navigate to the project directory:
 
-   cd chat-app
+   cd frontend
 
 3. Install the dependencies for the frontend:
 
