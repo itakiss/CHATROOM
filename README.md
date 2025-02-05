@@ -53,9 +53,3 @@ To run this application locally, follow these steps:
 
 ## Contributing
 Contributions are welcome! If you would like to contribute, please feel free to submit a pull request or report any issues. For significant changes, please open an issue first to discuss what you would like to change.
-
-## License
-This project is licensed under the MIT License.
-
-## Contact
-If you have any questions or feedback, feel free to reach out to me at ivkovicing@gmail.com.
